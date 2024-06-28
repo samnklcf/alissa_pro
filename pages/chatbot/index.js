@@ -23,6 +23,14 @@ export default withAuth(function Corrections() {
         id: "E3YU8fkskfblsfII9",
   
       },
+    {
+        titre: "Rapport",
+        description: "Rapport du chatbot, analyse des échanges avec les utilisateurs",
+        lien: "post",
+        source: "/assets/img/analyZer.jpeg",
+        id: "E3YtytuytuU8II9uiohjklmp",
+  
+      },
       
   ]
 
