@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exemple de bouton de copie de texte</title>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni libero
+      officiis deleniti eos ex corporis nam ut laboriosam non ullam facilis at,
+      rem magnam, doloremque aperiam quo ad iste eveniet nesciunt harum
+      similique tempore expedita. Quod perspiciatis nisi obcaecati nostrum quam
+      quisquam. Sapiente facere, nam quis ducimus iusto temporibus labore
+      blanditiis quos error autem, facilis dignissimos qui. Necessitatibus,
+      officiis odit sunt fugit nihil repellat maxime possimus sit eveniet
+      aliquam veritatis explicabo accusamus? Voluptates, hic iure nobis
+      dignissimos iste laudantium voluptatibus esse obcaecati sint consectetur
+      quasi odio ullam, nostrum cum veniam nesciunt labore quis accusamus quia.
+      Molestias provident ex consectetur, ullam accusantium, est assumenda vero
+      autem deserunt, ipsa laborum odio! Delectus fuga ullam quos ut, nobis in
+      incidunt facere aut nisi eaque eligendi magnam sequi quam voluptatem
+      itaque atque architecto iste libero blanditiis praesentium? Nesciunt est
+      ea perferendis debitis aspernatur nostrum? Dolores delectus quam est harum
+      deserunt culpa repellendus voluptatum laboriosam cum molestiae non
+      inventore voluptates reiciendis quod rerum molestias dolorem voluptatem,
+      fugit, mollitia possimus distinctio eligendi alias aut? Adipisci ipsam
+      beatae sit voluptatibus, enim dolorem ipsum hic. Inventore, velit
+      architecto! Ut suscipit rerum magnam quidem quasi? Voluptatum ut ipsa nam,
+      aliquam unde sapiente tempora reiciendis ducimus, accusamus eos officia,
+      ratione ea nulla! Amet quam tempora consequatur, debitis eveniet magni
+      excepturi iste. Officia repellat rem ea est recusandae quis illum?
+      Accusantium culpa at dignissimos saepe velit laudantium non rem adipisci
+      possimus ratione deserunt dolorum ipsum, nemo a excepturi repudiandae
+      pariatur hic voluptatibus? Dolor sapiente laboriosam cumque totam quam
+      tenetur fugiat inventore esse dolores maiores quod, aliquam facere nobis
+      nostrum, tempora alias ullam. Maxime cupiditate ad dolorem illo
+      voluptatibus voluptates saepe, veritatis impedit perferendis sint quisquam
+      quasi numquam cumque earum architecto minima at aperiam corporis
+      laudantium incidunt libero eius, animi inventore hic! Facere odit beatae
+      hic repellat. Incidunt perspiciatis est provident natus!
+    </p>
+    
+    <div id="copy-button" style="display: none; position: absolute;">
+        <button onclick="copyText()">Copier</button>
+      </div>
+      
+      <script>
+        function showCopyButton() {
+          var selection = window.getSelection();
+          var copyButton = document.getElementById("copy-button");
+      
+          if (selection.toString().length > 0) {
+            copyButton.style.display = "block";
+            var range = selection.getRangeAt(0);
+            var rect = range.getBoundingClientRect();
+            copyButton.style.top = rect.bottom + "px";
+            copyButton.style.left = rect.left + ((rect.right - rect.left) / 2) + "px";
+          } else {
+            copyButton.style.display = "none";
+          }
+        }
+      
+        function copyText() {
+          var selection = window.getSelection();
+          var range = selection.getRangeAt(0);
+          var text = range.toString();
+          navigator.clipboard.writeText(text);
+        }
+      
+        document.addEventListener("mouseup", showCopyButton);
+      </script>
+      
+  </body>
+</html>
+
