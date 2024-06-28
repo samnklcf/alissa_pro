@@ -25,7 +25,7 @@ export default function Header() {
       <div className="d-flex align-items-center justify-content-between">
         <Link href="/" className="logo d-flex align-items-center">
           <Image src="/assets/img/logo.png" alt="" width={40} height={40} priority/>
-          <span className="d-none d-lg-block"><span className="bleu">Alissa</span> <sub className="jaune">Doc</sub></span>
+          <span className="d-none d-lg-block"><span className="bleu">Alissa</span> <sub className="jaune">Pro</sub></span>
         </Link>
         <i className="bi bi-list toggle-sidebar-btn" />
       </div>
