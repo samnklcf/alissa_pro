@@ -63,6 +63,14 @@ function Marketing() {
       id: "E3YtytuytuU8II9",
 
     },
+    {
+      titre: "Rédiger un post",
+      description: "Rédigez un post en un clic",
+      lien: "post",
+      source: "/assets/img/analyZer.jpeg",
+      id: "E3YtytuytuU8II9uiop",
+
+    },
 
     // {
     //   titre: "Email marketing",
