@@ -110,7 +110,7 @@ export default withAuth(function Fautes() {
   // --------------------------------------------------Fin enregistrement----------------------------------------------------------------
 
   useEffect(() => {
-    fetch('https://alissa-bot.onrender.com/api/read-file')
+    fetch('https://alissa-bot-zkutajntcq-ue.a.run.app/api/read-file')
       .then(response => response.json())
       .then(data => {
         setContent(data.content);
@@ -122,7 +122,7 @@ export default withAuth(function Fautes() {
   }, []);
 
   const handleEdit = () => {
-    fetch('https://alissa-bot.onrender.com/api/edit-file', {
+    fetch('https://alissa-bot-zkutajntcq-ue.a.run.app/api/edit-file', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
