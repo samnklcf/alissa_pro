@@ -28,12 +28,7 @@ function Menu() {
       {/* End F.A.Q Page Nav */}
       
 
-      <li className="nav-item">
-        <Link className="nav-link collapsed" href="/">
-          <i className="bi bi-envelope bleuSombre" />
-          <span>Marketing</span>
-        </Link>
-      </li>
+      
 
       
       <li className="nav-item">
