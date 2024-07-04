@@ -47,30 +47,55 @@ function Marketing() {
     //   id: "E3YU8uytytuII9",
     // },
     
-    {
-      titre: "Post AnalyZer",
-      description: "Analysez vos Publicattion sur les réseaux sociaux en un clic",
-      lien: "analyzer",
-      source: "/assets/img/analyZer.jpeg",
-      id: "E3YtytuytuU8II9",
+    // {
+    //   titre: "Post AnalyZer",
+    //   description: "Analysez vos Publicattion sur les réseaux sociaux en un clic",
+    //   lien: "analyzer",
+    //   source: "/assets/img/analyZer.jpeg",
+    //   id: "E3YtytuytuU8II9",
 
-    },
-    {
-      titre: "Calendier éditoriaux",
-      description: "Créez des calendriez éditoriaux en un clic",
-      lien: "editorial",
-      source: "/assets/img/analyZer.jpeg",
-      id: "E3YtytuytuU8II9",
+    // },
+    // {
+    //   titre: "Calendier éditoriaux",
+    //   description: "Créez des calendriez éditoriaux en un clic",
+    //   lien: "editorial",
+    //   source: "/assets/img/analyZer.jpeg",
+    //   id: "E3YtytuytuU8II9",
 
-    },
-    {
-      titre: "Rédiger un post",
-      description: "Rédigez un post en un clic",
-      lien: "post",
-      source: "/assets/img/analyZer.jpeg",
-      id: "E3YtytuytuU8II9uiop",
+    // },
+    // {
+    //   titre: "Rédiger un post",
+    //   description: "Rédigez un post en un clic",
+    //   lien: "post",
+    //   source: "/assets/img/analyZer.jpeg",
+    //   id: "E3YtytuytuU8II9uiop",
 
-    },
+    // },
+
+     {
+        titre: "Entraînnez Mon ChatBot",
+        description: "Entraînnez le chatbot en un click",
+        lien: "trainning",
+        source: "/assets/img/correction.webp",
+        id: "E3YU8fkskfblsfII9",
+  
+      },
+      {
+        titre: "Tester le chat bot",
+        description: "Vérifier votre entraînnement",
+        lien: "test",
+        source: "/assets/img/correction.webp",
+        id: "E3YU8fkskfblsfII9",
+  
+      },
+    {
+        titre: "Rapport",
+        description: "Rapport du chatbot, analyse des échanges avec les utilisateurs",
+        lien: "post",
+        source: "/assets/img/analyZer.jpeg",
+        id: "E3YtytuytuU8II9uiohjklmp",
+  
+      },
 
     // {
     //   titre: "Email marketing",
