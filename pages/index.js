@@ -168,7 +168,7 @@ function Marketing() {
                                   </p>
                                   <p className="card-text">
                                     <Link
-                                      href={`documents/${elements.lien}`}
+                                      href={`/chatbot/${elements.lien}`}
                                       className="btn btn-primary"
                                     >
                                       Commencer <b>+</b>
