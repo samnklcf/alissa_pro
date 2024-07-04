@@ -77,31 +77,16 @@ function Menu() {
             <div className="modal-content">
               <div className="modal-header">
               
-                <h5 className="modal-title">Rédigez vos contenus <br /><b><i className="text-success petit">Enregistrement automatique</i></b></h5>
                 
-                <button
-                  type="button"
-                  className="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                />
               </div>
               
               <div className="modal-body">
-                <Editor
-
-                  apiKey="stw5j8z3vozadrpp73kimi33qwr8h30kgdvz03pldeszzv3c"
-                  value={content}
-                  onEditorChange={handleEditorChange}
-                  
-                  init = {{
-                    language: 'fr_FR',
-                  }}
+                
 
                   
                   
                   
-                />
+              
               </div>
               <div className="modal-footer">
               
