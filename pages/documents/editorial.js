@@ -41,7 +41,7 @@ export default withAuth(function Fautes() {
     // setLoader(true)
 
     //console.log(updateData);
-    fetch("https://alissabackfluid.onrender.com/api/alissa", {
+    fetch("https://alissabackfluid-dot-alissa-ia.uc.r.appspot.com/api/alissa", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
